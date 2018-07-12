@@ -47,12 +47,15 @@ while True:
             print("Spell wrong? Can not find it, please try again")
 
         print("Press 's' to store the word.\nor,press 'c' to start next inquiry.")
-        url2=input("")
-        if url2=="s":
+        input_char=input("")
+        if input_char=="s":
             createword()
             f=open("word.txt", 'a', encoding='utf-8')
             print("word stored !")
             f.close()
             continue
-        if url2=="c":
+        if input_char=="c":
             continue
+        if input_char=="q":
+            f=open("log.txt", 'a', encoding='utf-8')
+            print("log stored, see ya! ")
