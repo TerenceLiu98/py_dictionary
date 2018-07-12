@@ -11,14 +11,12 @@ def createlog():
     f.write('\n'+hr+'\n'+time.strftime(form,time.localtime())+'\n'+hr)
     f.close()
 
-#
-#def createword():
-#    form="%Y-%m-%d %X"
-#    hr="========"
-#    f=open("word.txt", 'a', encoding='utf-8')
-#    f.write('\n' + word)
-#    f.close()
-#
+def createword():
+    form="%X"
+    hr="========"
+    f=open("word.txt", 'a', encoding='utf-8')
+    f.write(word+'\n')
+    f.close()
 
 print("===============================\n=Youdao Dictionary 「Command Line Version」=\n===============================\n")
 print("press'q'to quit.\n")
@@ -46,4 +44,15 @@ while True:
             f.write('\n'+str(res))
             f.close()
         except IndexError:
-            print("Spell wrong? Can not find it, please try agian")
+            print("Spell wrong? Can not find it, please try again")
+
+        print("Press 's' to store the word.\nor,press 'c' to start next inquiry.")
+        url2=input("")
+        if url2=="s":
+            createword()
+            f=open("word.txt", 'a', encoding='utf-8')
+            print("word stored !")
+            f.close()
+            continue
+        if url2=="c":
+            continue
