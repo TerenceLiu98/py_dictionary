@@ -23,7 +23,7 @@ print("press'q'to quit.\n")
 createlog()
 while True:
     rooturl='http://www.youdao.com/w/'
-    url=input("type your word：")
+    url=input("type your word:")
     f=open("log.txt", 'a', encoding='utf-8')
     if url=="q":
         print("log stored, see ya! ")
