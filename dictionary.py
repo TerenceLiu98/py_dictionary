@@ -21,7 +21,7 @@ def createlog():
 #
 
 print("===============================\n=Youdao Dictionary 「Command Line Version」=\n===============================\n")
-print("输入'q'可退出程式\n")
+print("press'q'to quit.\n")
 createlog()
 while True:
     rooturl='http://www.youdao.com/w/'
