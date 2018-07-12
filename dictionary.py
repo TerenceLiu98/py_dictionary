@@ -18,7 +18,7 @@ def createword():
     f.write(word+'\n')
     f.close()
 
-print("===============================\n=Youdao Dictionary 「Command Line Version」=\n===============================\n")
+print("===============================\n=Youdao Dictionary[Command Line Version]=\n===============================\n")
 print("press'q'to quit.\n")
 createlog()
 while True:
