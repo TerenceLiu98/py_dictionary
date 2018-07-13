@@ -1,0 +1,17 @@
+
+========
+2018-07-13 08:55:18
+========
+{'word': 'test', 'Translation': 'n. 试验；检验'}
+{'word': 'google', 'Translation': '谷歌；谷歌搜索引擎'}
+{'word': 'FaceBook', 'Translation': 'n. 脸谱网'}
+{'word': 'yes', 'Translation': 'adv. 是, 是的'}
+{'word': 'LS', 'Translation': 'abbr. 激光系统（Laser System）；发射场（Launch Site）；限位开关（Limit Switch）；信号电平开关（Level Switch）'}
+========
+2018-07-13 08:56:07
+========
+{'word': 'LS', 'Translation': 'abbr. 激光系统（Laser System）；发射场（Launch Site）；限位开关（Limit Switch）；信号电平开关（Level Switch）'}
+========
+2018-07-13 08:56:44
+========
+{'word': 'hello', 'Translation': 'int. 喂；哈罗'}

@@ -46,7 +46,7 @@ while True:
         except IndexError:
             print("Spell wrong? Can not find it, please try again")
 
-        print("Press 's' to store the word.\nor,press 'c' to start next inquiry.")
+        print("Press 's' to store the word.\nPress 'c' to start next inquiry\nPress 'q' to quit the app")
         input_char=input("")
         if input_char=="s":
             createword()
@@ -58,4 +58,6 @@ while True:
             continue
         if input_char=="q":
             f=open("log.txt", 'a', encoding='utf-8')
-            print("log stored, see ya! ")
+            print("See ya! ")
+            f.close()
+            sys.exit()
