@@ -18,7 +18,7 @@ def createword():
     f.write(word+'\n')
     f.close()
 
-print("===============================\n=Youdao Dictionary[Command Line Version]=\n===============================\n")
+print("==========================================\n=Youdao Dictionary[Command Line Version]=\n==========================================\n")
 print("press'q'to quit.\n")
 createlog()
 while True:
@@ -31,7 +31,7 @@ while True:
         sys.exit()
     else:
         finurl=rooturl+url
-        headers = ('User-Agent','Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36')
+
         res={}
         try:
             response = requests.get(finurl)
